@@ -1,0 +1,194 @@
+#title {
+    font-size: 65px;
+    font-family: monospace;
+    color: red;
+    background-color: black;
+    order:0;
+    flex:0 1 auto;
+    align-self:auto;
+    height:auto;
+    width:auto;
+}
+
+#sub-title {
+    font-size: 35px;
+    font-family: monospace;
+    color: red;
+    background-color: black;
+    order:0;
+    flex:0 1 auto;
+    align-self:auto;
+    height:auto;
+    width:auto;
+}
+
+#parraf1 {
+    font-size: 27.5px;
+    font-family: monospace;
+    color: red;
+    background-color: black;
+    order:0;
+    flex:0 1 auto;
+    align-self:auto;
+    height:auto;
+    width:auto;
+}
+
+#parraf2 {
+    font-size: 27.5px;
+    font-family: monospace;
+    color: red;
+    background-color: black;
+    order:0;
+    flex:0 1 auto;
+    align-self:auto;
+    height:auto;
+    width:auto;
+}
+
+#parraf3 {
+    font-size: 27.5px;
+    font-family: monospace;
+    color: red;
+    background-color: black;
+    order:0;
+    flex:0 1 auto;
+    align-self:auto;
+    height:auto;
+    width:auto;
+}
+
+#project {
+    font-size: 55px;
+    font-family: monospace;
+    color: red;
+    background-color: black;
+    order:0;
+    flex:0 1 auto;
+    align-self:auto;
+    height:auto;
+    width:auto;
+}
+
+#parraf1description {
+    font-size: 23.5px;
+    font-family: monospace;
+    color: red;
+    background-color: black;
+    margin-left: 45px;
+    order:0;
+    flex:0 1 auto;
+    align-self:auto;
+    height:auto;
+    width:auto;
+}
+
+#parraf2description {
+    font-size: 22.5px;
+    font-family: monospace;
+    color: red;
+    background-color: black;
+    margin-left: 45px;
+    order:0;
+    flex:0 1 auto;
+    align-self:auto;
+    height:auto;
+    width:auto;
+}
+
+#parraf3description {
+    font-size: 22.5px;
+    font-family: monospace;
+    color: red;
+    background-color: black;
+    margin-left: 45px;
+    order:0;
+    flex:0 1 auto;
+    align-self:auto;
+    height:auto;
+    width:auto;
+}
+
+#linkgame {
+    font-size: 22.5px;
+    font-family: monospace;
+    color: red;
+    background-color: black;
+    margin-left: -500px;
+    order:0;
+    flex:0 1 auto;
+    align-self:auto;
+    height:auto;
+    width:auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.grid-container > div {
+  padding: 10px;
+}
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10000px;
+}
+
+.in-flex {
+    flex: 1;
+    min-width: 300px;
+}
+
+div {
+    display: inline-block;
+}
+
+/*
+  Usa un media query para hacer que el grid sea adaptable a dispositivos móviles
+*/
+
+@media (max-width:600px) {
+  .grid-container {
+    grid-template-columns: auto;
+  }
+}
+
+body {
+    background-color: black;
+}
+
+.container{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content:flex-start;
+  align-items:unset;
+  align-content:flex-start;
+}
+
+.item-0{
+  order:0;
+  flex:0 1 auto;
+  align-self:auto;
+  height:auto;
+  width:auto;
+}
+
+.item-1{
+  order:0;
+  flex:0 1 auto;
+  align-self:auto;
+  height:auto;
+  width:auto;
+}
+
+.item-2{
+  order:0;
+  flex:0 1 auto;
+  align-self:auto;
+  height:auto;
+  width:auto;
+}
